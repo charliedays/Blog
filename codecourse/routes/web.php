@@ -17,3 +17,10 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('main');
 });
+Route::get('/feed', function () {
+    return view('feed');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');

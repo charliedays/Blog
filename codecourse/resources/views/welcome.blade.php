@@ -1,16 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ config('app.locale') }}">
 
-  <header>
-      <meta charset="utf-8">
-      <img id="idLogo" src="src/assets/logo.jpeg">
-      <input type="text" class="headerinput"  placeholder="Usuario...">
-      <input type="password" class="headerinput"  placeholder="Contraseña...">
-      <button id="sesionbutton" class="headerbutton">Iniciar sesion</button>
-      <button id="recoverbutton" class="headerbutton">Recuperar</button>
 
-
-    </header>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,6 +11,9 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link href="{!! asset('css/bootstrap.min.css') !!}" rel="stylesheet" type="text/css">
+
+        <link href="{!! asset('css/cascada.css') !!}" rel="stylesheet" type="text/css">
 
         <!-- Styles -->
         <style>
